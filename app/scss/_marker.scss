@@ -1,0 +1,27 @@
+// style for markers
+.marker {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+    &__place {
+        display: flex;
+        flex-direction: row;
+        margin-right: 43px;
+
+    }
+
+    .sup {
+        vertical-align: super;
+    }
+}
+
+.marker__place-1,
+.marker__place-2,
+.marker__place-3 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: $white;
+    padding-left: 16px;
+}

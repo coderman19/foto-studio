@@ -1,0 +1,16 @@
+File from: [app/images/src/gallery/img-5.png]
+
+File to: [app/images/dest/gallery/img-5.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\HP\Desktop\foto studio\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o app/images/dest/gallery/img-5.png app/images/src/gallery/img-5.png
+  error: failed writing image to app/images/dest/gallery/img-5.png (16)
+File from: [app/images/src/banner/banner-3.png]
+
+File to: [app/images/dest/banner/banner-3.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\HP\Desktop\foto studio\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o app/images/dest/banner/banner-3.png app/images/src/banner/banner-3.png
+  error: failed writing image to app/images/dest/banner/banner-3.png (16)

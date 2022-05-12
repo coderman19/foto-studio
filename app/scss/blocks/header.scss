@@ -1,0 +1,31 @@
+.header {
+    background-color: $secondary_color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+        margin-left: 15px;
+        width: 128px;
+    }
+
+    &__nav {
+
+        // display: flex;
+        &-links {
+            display: flex;
+
+            gap: 40px;
+            margin-left: 400px;
+            margin-right: 15px;
+        }
+
+        &-links a {
+            color: #fff;
+        }
+    }
+
+    &__btn {
+        padding-right: 15px;
+    }
+}

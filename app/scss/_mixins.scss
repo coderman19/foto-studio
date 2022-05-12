@@ -1,0 +1,13 @@
+@mixin btn {
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 5px;
+    font-family: $secondary_fonts;
+}
+
+@mixin nav_link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}

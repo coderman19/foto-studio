@@ -1,0 +1,8 @@
+File from: [app/images/src/gallery/img-4.png]
+
+File to: [app/images/dest/gallery/img-4.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\HP\Desktop\foto studio\node_modules\pngquant-bin\vendor\pngquant.exe --quality=75-100 -o app/images/dest/gallery/img-4.png app/images/src/gallery/img-4.png
+  error: 'app\images\dest\gallery\img-4.png' exists; not overwriting
