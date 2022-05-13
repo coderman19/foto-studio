@@ -11,3 +11,19 @@
     font-size: 15px;
     line-height: 20px;
 }
+
+@mixin main_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: $white;
+    padding-bottom: 15px;
+}
+
+@mixin main_subtitle {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: $sec_color_text;
+    padding-bottom: 40px;
+}

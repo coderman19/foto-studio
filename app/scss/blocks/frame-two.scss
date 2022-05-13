@@ -1,0 +1,62 @@
+// styles frame-two
+.wedo__box {
+    position: relative;
+    display: block;
+    // flex-direction: column;
+    padding: 100px 5px;
+
+    &-foto {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    &-write {
+        text-align: center;
+
+        .box__title {
+            @include main_title;
+        }
+
+        .box__text {
+            @include main_subtitle;
+        }
+    }
+
+    &-picture {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+
+        .box__foto {
+            position: absolute;
+            padding: 370px 5px 5px 30px;
+            // background-image: url('../images/src/gallery/img-1.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .foto__box-title {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: $white;
+            padding-bottom: 30px;
+        }
+
+        .foto__box-text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: $sec_color_text;
+            padding-bottom: 30px;
+            width: 500px;
+        }
+    }
+}

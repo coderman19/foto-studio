@@ -1,8 +1,16 @@
 // style for markers
+.marker-one {
+    position: absolute;
+}
+
 .marker {
+
     display: flex;
     flex-direction: row;
     justify-content: end;
+    right: 10px;
+    bottom: 20px;
+
 
     &__place {
         display: flex;

@@ -6,8 +6,6 @@
 @import 'nav';
 @import 'marker';
 
-
-
 .container {
     width: $width;
     margin: 0 auto;
@@ -15,60 +13,11 @@
 
 }
 
-.frame-one {
-    width: 100%;
 
-}
-
-.main__desc {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../images/src/banner/banner-1.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    &-subtitle {
-        color: $sec_color_text;
-        padding-top: 460px;
-        padding-bottom: 10px;
-        text-align: center;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-    }
-
-    &-title {
-        color: $white;
-        padding-bottom: 10px;
-        text-align: center;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 54px;
-        line-height: 59px;
-    }
-
-    &-text {
-        color: $sec_color_text;
-        padding: 0 10px 60px 10px;
-        text-align: center;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        width: 600px;
-        margin: 0 auto;
-    }
-}
-
-
-
+@import 'blocks/frame-one';
+@import 'blocks/frame-two';
+@import 'blocks/frame-three';
+@import 'blocks/frame-four';
 
 @import 'blocks/header';
 @import 'blocks/footer';
