@@ -1,0 +1,53 @@
+.frame__four {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    &-weuse {
+        width: 50%;
+        position: relative;
+    }
+
+    &-img {
+        width: 50%;
+    }
+}
+
+.weuse__box {
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+
+    &-paragraf {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $sec_color_text;
+        padding-bottom: 6px;
+    }
+
+    &-title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        color: $white;
+        padding-bottom: 14px;
+    }
+
+    &-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: $white;
+        width: 514px;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+.weuse-btn {
+    bottom: 150px;
+}

@@ -27,3 +27,10 @@
     color: $sec_color_text;
     padding-bottom: 40px;
 }
+
+@mixin footer_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+}

@@ -1,0 +1,124 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 112px;
+    padding-bottom: 105px;
+}
+
+.footer__issue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+        @include main_title;
+        padding-bottom: 15px;
+        width: 544px;
+        text-align: center;
+    }
+
+    &-text {
+        @include main_subtitle;
+        padding-bottom: 18px;
+    }
+
+    &-btn {
+        padding-bottom: 100px;
+    }
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 36px;
+
+    &-logo {
+        width: 128px;
+
+    }
+
+    & p {
+        @include footer_text;
+        color: $sec_color_text;
+        width: 440px;
+        padding-top: 20px;
+    }
+
+    &-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .areas__link {
+            padding-right: 50px;
+        }
+
+        .pages__link {
+            padding-right: 102px;
+
+        }
+    }
+
+    li {
+        padding-bottom: 10px;
+    }
+}
+
+.staff {
+    @include footer_text;
+    color: $white;
+    letter-spacing: 2px;
+}
+
+.simple {
+    @include footer_text;
+    color: $sec_color_text;
+}
+
+// news
+.footer__news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .our__news {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 36px 0;
+
+        &-title {
+            @include footer_text;
+            color: $white;
+            letter-spacing: 2px;
+            padding-bottom: 20px;
+        }
+
+        &-text {
+            @include footer_text;
+            color: $sec_color_text;
+        }
+    }
+
+    .news__btn {
+        position: relative;
+        width: 458px;
+        height: 52px;
+        background-color: $white;
+        border-radius: 10px;
+        margin-top: 37px;
+
+        &-button {
+            width: 63px;
+            height: 30px;
+            background-color: $black;
+            border-radius: 11px;
+            left: 10px;
+            position: absolute;
+            right: 12px;
+            top: 11px;
+        }
+    }
+}
