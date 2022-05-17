@@ -22,6 +22,8 @@ const imagecomp = require('compress-images');
 // const newer = require('gulp-newer');
 // Подключаем del
 const del = require('del');
+// Подключаем file-include
+// const fileInclude = require('gulp-file-include');
 
 // Определяем логику работы Browsersync
 function browsersync() {
@@ -31,6 +33,13 @@ function browsersync() {
         online: true  // false для локального доступа 
     })
 }
+
+// html
+// const html = () => {
+//     return src('app/**/*.html')
+//         .pipe(fileInclude())
+//         .pipe(dest('.app/src'));
+// }
 
 // скрипты
 function scripts() {
@@ -72,6 +81,8 @@ async function images() {
     )
 }
 
+
+
 // удаление папки с изображениями
 function cleanimg() {
     return del('app/images/dest/**/*', { force: true }) // Удаляем все содержимое папки "app/images/dest/"
@@ -105,7 +116,7 @@ function startwatch() {
 }
 
 // экспорт задач
-
+// exports.html = html;
 // Экспортируем функцию browsersync() как таск browsersync. Значение после знака = это имеющаяся функция.
 exports.browsersync = browsersync;
 // Экспортируем функцию scripts() в таск scripts

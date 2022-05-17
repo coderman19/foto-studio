@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 112px;
-    padding-bottom: 105px;
+    // padding-bottom: 50px;
 }
 
 .footer__issue {
@@ -121,4 +121,27 @@
             top: 11px;
         }
     }
+}
+
+// allright
+.footer__allright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 0;
+
+    &-content {
+        @include footer_text;
+        line-height: 20px;
+        color: $sec_color_text;
+        text-align: center;
+    }
+
+    &-icons {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
 }
